@@ -1,0 +1,38 @@
+export const projectsContent = [
+    {
+      id: 1,
+      title: "E-commerce App",
+      description: "Aplicação de e-commerce completa com carrinho de compras e pagamento.",
+      image: "/placeholder.svg?height=400&width=600",
+      tags: ["React", "Next.js", "Tailwind CSS", "Stripe"],
+      github: "#",
+      demo: "#",
+    },
+    {
+      id: 2,
+      title: "Dashboard Analytics",
+      description: "Dashboard interativo para visualização de dados e métricas de negócio.",
+      image: "/placeholder.svg?height=400&width=600",
+      tags: ["React", "TypeScript", "Chart.js", "Tailwind CSS"],
+      github: "#",
+      demo: "#",
+    },
+    {
+      id: 3,
+      title: "App de Finanças",
+      description: "Aplicativo para controle de finanças pessoais com gráficos e relatórios.",
+      image: "/placeholder.svg?height=400&width=600",
+      tags: ["React", "Redux", "Firebase", "Styled Components"],
+      github: "#",
+      demo: "#",
+    },
+    {
+      id: 4,
+      title: "Portfólio Criativo",
+      description: "Portfólio para designer com animações e efeitos visuais avançados.",
+      image: "/placeholder.svg?height=400&width=600",
+      tags: ["Next.js", "Framer Motion", "Three.js", "GSAP"],
+      github: "#",
+      demo: "#",
+    },
+  ]
