@@ -13,12 +13,10 @@ export default function About() {
       </h3>
       <div className="max-w-3xl">
         <p className="text-gray-300 mb-6 leading-relaxed">
-          Olá! Sou Lucas Souza, um desenvolvedor frontend apaixonado por criar interfaces interativas e responsivas
-          que proporcionam experiências excepcionais aos usuários.
+          Formado em Sistemas de Informação e buscando consolidar primeiramente carreira em Desenvolvimento Front-End com especialidade em ReactJS. Posteriormente pretendendo adquirir conhecimentos em Back-End, a fim de trilhar a carreira de desenvolvedor Full Stack.
         </p>
         <p className="text-gray-300 mb-6 leading-relaxed">
-          Com mais de 5 anos de experiência no desenvolvimento web, tenho trabalhado com as tecnologias mais recentes
-          para criar soluções modernas e eficientes.
+          Atualmente trabalho desenvolvendo APIs com NodeJS/NestJS, criando automações para consultas web utlizando Python e consumidos os dados com ReactJS/NextJS.
         </p>
         <h4 className="mt-12">
           <span className="text-2xl font-semibold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
@@ -37,6 +35,10 @@ export default function About() {
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
                   React.js / Next.js
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
+                  Node.js / Nest.js
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-cyan-500 rounded-full mr-2"></span>
@@ -67,7 +69,7 @@ export default function About() {
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
-                  Figma / Adobe XD
+                  Figma
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
@@ -75,7 +77,7 @@ export default function About() {
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
-                  Vercel / Netlify
+                  Vercel
                 </li>
               </ul>
             </motion.div>
@@ -94,10 +96,10 @@ export default function About() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
               ></motion.div>
-              <h3 className="text-xl font-medium text-cyan-300">Desenvolvedor Frontend Senior</h3>
-              <p className="text-gray-400">Empresa Tech • 2020 - Presente</p>
+              <h3 className="text-xl font-medium text-cyan-300">Desenvolvedor FullStack</h3>
+              <p className="text-gray-400">AjCred • 2024 - Atual</p>
               <p className="mt-2 text-gray-300">
-                Desenvolvimento de aplicações web modernas utilizando React, Next.js e TypeScript.
+                Criação de APIs, automações e interfaces.
               </p>
             </div>
             <div className="relative pl-8 border-l border-cyan-900">
@@ -108,10 +110,10 @@ export default function About() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
               ></motion.div>
-              <h3 className="text-xl font-medium text-cyan-300">Desenvolvedor Frontend</h3>
-              <p className="text-gray-400">Agência Digital • 2018 - 2020</p>
+              <h3 className="text-xl font-medium text-cyan-300">Analista de Sistemas</h3>
+              <p className="text-gray-400">TWI Consultoria • 2023 - 2024</p>
               <p className="mt-2 text-gray-300">
-                Criação de interfaces responsivas e otimizadas para diversos clientes.
+                Ministrar oficinas e consultoria sobre os sistemas de faturamento do Ministério da Saúde.
               </p>
             </div>
           </div>
@@ -120,19 +122,63 @@ export default function About() {
           <h4 className="text-2xl font-semibold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200">
             Formação
           </h4>
-          <div className="relative pl-8 border-l border-purple-900">
-            <motion.div
-              className="absolute -left-1.5 top-0 w-3 h-3 rounded-full bg-purple-500 shadow-glow-purple"
-              initial={{ scale: 0 }}
-              whileInView={{ scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-            ></motion.div>
-            <h3 className="text-xl font-medium text-purple-300">Ciência da Computação</h3>
-            <p className="text-gray-400">Universidade Federal • 2014 - 2018</p>
-            <p className="mt-2 text-gray-300">
-              Bacharelado em Ciência da Computação com foco em desenvolvimento web.
-            </p>
+          <div className="space-y-8">
+            <div className="relative pl-8 border-l border-purple-900">
+              <motion.div
+                className="absolute -left-1.5 top-0 w-3 h-3 rounded-full bg-purple-500 shadow-glow-purple"
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+              ></motion.div>
+              <h3 className="text-xl font-medium text-purple-300">Desenvolvimento NodeJS</h3>
+              <p className="text-gray-400">Alura • 2025 - 2025 </p>
+              <p className="mt-2 text-gray-300">
+                Curso técnico avançado de Desenvolvimento Web Backend.
+              </p>
+            </div>
+            <div className="relative pl-8 border-l border-purple-900">
+              <motion.div
+                className="absolute -left-1.5 top-0 w-3 h-3 rounded-full bg-purple-500 shadow-glow-purple"
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+              ></motion.div>
+              <h3 className="text-xl font-medium text-purple-300">Desenvolvimento ReactJS</h3>
+              <p className="text-gray-400">Alura • 2024 - 2024</p>
+              <p className="mt-2 text-gray-300">
+                Curso técnico avançado de Desenvolvimento com ReactJS
+              </p>
+            </div>
+            <div className="relative pl-8 border-l border-purple-900">
+              <motion.div
+                className="absolute -left-1.5 top-0 w-3 h-3 rounded-full bg-purple-500 shadow-glow-purple"
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+              ></motion.div>
+              <h3 className="text-xl font-medium text-purple-300">Desenvolvimento Web Alura</h3>
+              <p className="text-gray-400">Alura • 2023 - 2024</p>
+              <p className="mt-2 text-gray-300">
+                Curso técnico avançado de Desenvolvimento Web Fontend.
+              </p>
+            </div>
+            <div className="relative pl-8 border-l border-purple-900">
+              <motion.div
+                className="absolute -left-1.5 top-0 w-3 h-3 rounded-full bg-purple-500 shadow-glow-purple"
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+              ></motion.div>
+              <h3 className="text-xl font-medium text-purple-300">Sistemas de Informação</h3>
+              <p className="text-gray-400">Universidade São Lucas • 2015 - 2020</p>
+              <p className="mt-2 text-gray-300">
+                Bacharelado em Sistemas de Informação com foco em desenvolvimento web.
+              </p>
+            </div>
           </div>
         </div>
       </div>

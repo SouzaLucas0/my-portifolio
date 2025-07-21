@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowLeft, Mail, Github, Linkedin, Twitter, Send } from "lucide-react"
+import { ArrowLeft, Mail, Github, Linkedin, Twitter, Send, Instagram } from "lucide-react"
 import { motion } from "framer-motion"
 import { PATH_PAGE } from "@/src/routes/paths"
 
@@ -34,10 +34,10 @@ export function Contact() {
                 <div>
                   <h3 className="text-lg font-medium text-cyan-300">Email</h3>
                   <a
-                    href="mailto:contato@lucassouza.com.br"
+                    href="mailto:lucas.souza.dev@outlook.com.br"
                     className="text-gray-400 hover:text-cyan-400 transition-colors"
                   >
-                    contato@lucassouza.com.br
+                    lucas.souza.dev@outlook.com.br
                   </a>
                 </div>
               </motion.div>
@@ -54,8 +54,8 @@ export function Contact() {
                 </motion.div>
                 <div>
                   <h3 className="text-lg font-medium text-purple-300">LinkedIn</h3>
-                  <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
-                    linkedin.com/in/lucassouza
+                  <a href="https://www.linkedin.com/in/souzalucas0/" className="text-gray-400 hover:text-purple-400 transition-colors" target="_blank">
+                    linkedin.com/in/souzalucas0
                   </a>
                 </div>
               </motion.div>
@@ -72,8 +72,8 @@ export function Contact() {
                 </motion.div>
                 <div>
                   <h3 className="text-lg font-medium text-cyan-300">GitHub</h3>
-                  <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
-                    github.com/lucassouza
+                  <a href="https://github.com/SouzaLucas0" className="text-gray-400 hover:text-cyan-400 transition-colors" target="_blank">
+                    github.com/SouzaLucas0
                   </a>
                 </div>
               </motion.div>
@@ -86,12 +86,12 @@ export function Contact() {
                     boxShadow: "0 0 10px rgba(147, 51, 234, 0.3)",
                   }}
                 >
-                  <Twitter className="h-5 w-5 text-purple-400" />
+                  <Instagram className="h-5 w-5 text-purple-400" />
                 </motion.div>
                 <div>
-                  <h3 className="text-lg font-medium text-purple-300">Twitter</h3>
-                  <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
-                    twitter.com/lucassouza
+                  <h3 className="text-lg font-medium text-purple-300">Instagram</h3>
+                  <a href="https://instagram.com/_lucass.fs/#" className="text-gray-400 hover:text-purple-400 transition-colors" target="_blank">
+                    instagram.com/_lucass.fs
                   </a>
                 </div>
               </motion.div>
