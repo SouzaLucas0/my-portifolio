@@ -1,4 +1,4 @@
-import { ThemeProvider } from "@/src/components/theme-provider"
+
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import type React from "react"
@@ -20,9 +20,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
           {children}
-        </ThemeProvider>
       </body>
     </html>
   )
