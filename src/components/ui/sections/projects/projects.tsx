@@ -17,7 +17,7 @@ export function Projects() {
         {projectsContent.map((project, index) => (
           <li key={index}>
             <motion.div
-              className="group relative bg-gray-900/50 rounded-lg overflow-hidden border border-gray-800 hover:border-cyan-500/50 transition-all duration-300"
+              className="group relative bg-gray-900/50 rounded-lg overflow-hidden border border-gray-800 hover:border-cyan-500/50 transition-all duration-300 h-full"
               whileHover={{
                 scale: 1.02,
                 borderColor: "rgba(6, 182, 212, 0.5)",
@@ -43,6 +43,7 @@ export function Projects() {
                   <div className="flex space-x-3">
                     <motion.a
                       href={project.github}
+                      target="_blank"
                       className="p-2 bg-gray-800/80 rounded-full text-gray-300 hover:text-cyan-400 hover:bg-gray-700/80 transition-colors"
                       aria-label="Ver no GitHub"
                       whileHover={{ scale: 1.1, rotate: 5 }}
@@ -52,6 +53,7 @@ export function Projects() {
                     </motion.a>
                     <motion.a
                       href={project.demo}
+                      target="_blank"
                       className="p-2 bg-gray-800/80 rounded-full text-gray-300 hover:text-cyan-400 hover:bg-gray-700/80 transition-colors"
                       aria-label="Ver demonstração"
                       whileHover={{ scale: 1.1, rotate: -5 }}

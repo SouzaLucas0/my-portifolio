@@ -99,7 +99,7 @@ export default function About() {
               <h3 className="text-xl font-medium text-cyan-300">Desenvolvedor FullStack</h3>
               <p className="text-gray-400">AjCred • 2024 - Atual</p>
               <p className="mt-2 text-gray-300">
-                Criação de APIs, automações e interfaces.
+                Criar APIs, automações e interfaces.
               </p>
             </div>
             <div className="relative pl-8 border-l border-cyan-900">
