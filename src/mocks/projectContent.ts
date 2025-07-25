@@ -1,0 +1,38 @@
+export const projectsContent = [
+    {
+      id: 1,
+      title: "Archflow",
+      description: "Aplicação web para gerenciamento de fluxo de trabalho, estado de tarefas e colaboração em equipe e gereciamento de recebimentos financeiros.",
+      image: "/img/archflow.webp?height=400&width=600",
+      tags: ["React", "Next", "Tailwind CSS", "TypeScript", "Node", "Nest", "TypeOrm", "PostgreSQL", "JWT"],
+      github: "https://github.com/SouzaLucas0/archiflow",
+      demo: "https://v0-projeto-de-gerenciamento-omega.vercel.app/",
+    },
+    {
+      id: 2,
+      title: "Hefesto Produtora",
+      description: "Landing page para produtora de eventos utilizando videos e animações mantendo as melhores notas de Desempenho, Acessibilidade, Práticas Recomendadas e SEO.",
+      image: "/img/hefesto.webp?height=400&width=600",
+      tags: ["React", "Next", "TypeScript", "Tailwind CSS"],
+      github: "https://github.com/ajcredpromotora/front-Hefesto",
+      demo: "https://hefestoprodutora.com.br/",
+    },
+    {
+      id: 3,
+      title: "Eight Labs Provedor",
+      description: "Landing page para produtora de eventos utilizando videos e animações mantendo as melhores notas de Desempenho, Acessibilidade, Práticas Recomendadas e SEO.",
+      image: "/img/provedor.webp?height=400&width=600",
+      tags: ["React", "Next", "TypeScript", "Tailwind CSS"],
+      github: "https://github.com/ajcredpromotora/lp-eigth-lab-provedor",
+      demo: "https://ei.8labs.com.br/",
+    },
+    {
+      id: 4,
+      title: "Eight Labs Tecnologias",
+      description: "Landing page para produtora de eventos utilizando videos e animações mantendo as melhores notas de Desempenho, Acessibilidade, Práticas Recomendadas e SEO.",
+      image: "/img/tecnologias.webp?height=400&width=600",
+      tags: ["React", "Next", "TypeScript", "Tailwind CSS"],
+      github: "https://github.com/ajcredpromotora/lp-eigth-lab",
+      demo: "https://ti.8labs.com.br/",
+    },
+  ]

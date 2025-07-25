@@ -53,11 +53,19 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Cores personalizadas para o fundo de galáxia (ainda mais escuras)
-        "galaxy-purple": "#10021F", // Roxo ainda mais escuro
-        "galaxy-cyan": "#021F1F", // Ciano ainda mais escuro
-        "galaxy-light-purple": "#3A1560", // Roxo claro ligeiramente mais escuro
-        "galaxy-light-cyan": "#156060", // Ciano claro ligeiramente mais escuro
+        sidebar: {
+          DEFAULT: "hsl(var(--sidebar))",
+          foreground: "hsl(var(--sidebar-foreground))",
+          primary: "hsl(var(--sidebar-primary))",
+          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
+        },
+        chart: {
+          1: "var(--chart-1)",
+          2: "var(--chart-2)",
+          3: "var(--chart-3)",
+          4: "var(--chart-4)",
+          5: "var(--chart-5)",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -73,22 +81,10 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        // Keyframes para as estrelas piscando (REMOVIDO)
-        // twinkle: {
-        //   "0%, 100%": { opacity: "0.05" },
-        //   "50%": { opacity: "0.3" },
-        // },
-        // Keyframes para um pulso lento nas nebulosas
-        "pulse-slow": {
-          "0%, 100%": { opacity: "0.25" },
-          "50%": { opacity: "0.4" },
-        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        // twinkle: "twinkle 1s infinite ease-in-out", // REMOVIDO
-        "pulse-slow": "pulse-slow 8s infinite ease-in-out",
       },
     },
   },
