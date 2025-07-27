@@ -3,8 +3,6 @@
 import Image from "next/image"
 import { StyledDesktopLink } from "../styledLink/styledDesktopLink"
 import { NavDesktopProps } from "@/src/@types/navDesktopProps"
-import { Button } from "../../buttons/button"
-import { PATH_PAGE } from "@/src/routes/paths"
 import { useState } from "react"
 
 export function NavDesktop({ data }: NavDesktopProps) {
@@ -19,11 +17,11 @@ export function NavDesktop({ data }: NavDesktopProps) {
                 onMouseOut={()=> setLogo('logo') }
             >
                 <Image
-                    className="w-[10vw] max-w-[44px]"
+                    className="w-[38vw] max-w-[38px]"
                     src={`/logo/${logo}.svg`}
                     alt={"Logo do portifólio"}
-                    width={200}
-                    height={200}
+                    width={40}
+                    height={40}
                 />
                 <span className="px-2 text-2xl">|</span>
                 <span className="uppercase">Portfólio</span>

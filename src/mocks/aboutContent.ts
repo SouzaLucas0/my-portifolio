@@ -1,5 +1,3 @@
-import { Briefcase, Code } from "lucide-react";
-import { title } from "process";
 
 export const aboutContent = {
  skills: [
@@ -41,7 +39,7 @@ export const aboutContent = {
   {
    title: "Desenvolvimento NodeJS",
    university: "Udemy",
-   startDate: "2025",
+   startDate: "2024",
    finishDate: "2025",
    description: "Curso técnico avançado de Desenvolvimento Web Backend.",
   },
@@ -49,7 +47,7 @@ export const aboutContent = {
    title: "Desenvolvimento ReactJS",
    university: "Alura",
    startDate: "2024",
-   finishDate: "2024",
+   finishDate: "2025",
    description: "Curso técnico avançado de Desenvolvimento com ReactJS.",
   },
     {
@@ -62,8 +60,8 @@ export const aboutContent = {
       {
    title: "Sistemas de Informação",
    university: "Universidade São Lucas",
-   startDate: "2023",
-   finishDate: "2024",
+   startDate: "2015",
+   finishDate: "2020",
    description: "Bacharelado em Sistemas de Informação.",
   }
  ],

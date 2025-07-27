@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useState, useRef } from "react"
-import Stars from "./stars"
 
 export default function GalaxyBackground() {
   const [scrollPosition, setScrollPosition] = useState(0)
@@ -74,7 +73,6 @@ export default function GalaxyBackground() {
 
       {/* Camada das estrelas: agora sem animação de brilho */}
       <div className="fixed inset-0 z-0 pointer-events-none" style={{ transform: `translateY(${layer5Parallax}px)` }}>
-        <Stars count={150} /> {/* isScrolling não é mais passado para Stars */}
         <div className="absolute right-1/4 top-1/5 h-64 w-64 rounded-full bg-galaxy-light-purple opacity-10 blur-3xl" />
         <div className="absolute left-1/5 bottom-1/5 h-72 w-72 rounded-full bg-galaxy-light-cyan opacity-10 blur-3xl" />
       </div>

@@ -1,11 +1,11 @@
+import { Github, Instagram, Linkedin } from "lucide-react"
 import Link from "next/link"
-import { Github, Instagram, Linkedin, X } from "lucide-react"
-import { StyledDesktopLink } from "../../nav/styledLink/styledDesktopLink"
 import { navConfig } from "../../nav/nav-config"
+import { StyledDesktopLink } from "../../nav/styledLink/styledDesktopLink"
 
 export function Footer() {
     return (
-        <footer className="bg-gray-950 text-gray-400 py-8 md:py-12">
+        <footer className="bg-black/50 backdrop-blur-lg text-gray-400 py-8">
             <div className="container mx-auto px-4 md:px-6 flex flex-col lg:flex-row items-center justify-between gap-6">
                 <div className="text-center md:text-left">
                     <p className="text-sm">&copy; {new Date().getFullYear()} Lucas Souza. All rights reserved.</p>

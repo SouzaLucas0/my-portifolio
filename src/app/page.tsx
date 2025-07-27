@@ -5,7 +5,7 @@ import GalaxyBackground from "../components/ui/galaxyTheme/galaxy-background"
 
 export default function Home() {
   return (
-    <main className="min-h-screen text-white overflow-hidden relative">
+    <main className="bg-gray-950 min-h-screen text-white overflow-hidden relative">
       <HomeTemplate />
       <GalaxyBackground />
     </main>
