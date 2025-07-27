@@ -10,7 +10,7 @@ export function Footer() {
                 <div className="text-center md:text-left">
                     <p className="text-sm">&copy; {new Date().getFullYear()} Lucas Souza. All rights reserved.</p>
                 </div>
-                <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+                <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2">
                     {navConfig.map((item, index) => (
                         <StyledDesktopLink
                             key={index}
