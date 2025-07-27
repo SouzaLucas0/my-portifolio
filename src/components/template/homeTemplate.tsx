@@ -7,14 +7,14 @@ import { Hero } from "../ui/sections/hero/hero";
 import { Projects } from "../ui/sections/projects/projects";
 
 export function HomeTemplate() {
-    return(
+    return (
         <>
             <Header />
             <Hero />
             <About />
             <Projects />
-            <Contact />       
-            <Footer />     
+            <Contact />
+            <Footer />
         </>
     )
 }
