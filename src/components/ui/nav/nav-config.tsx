@@ -1,6 +1,9 @@
 
+import { IconAbout } from "./mobile/icon/iconAbout";
 import { IconHome } from "./mobile/icon/iconHome";
 import { PATH_PAGE } from "@/src/routes/paths";
+import { IconProjects } from "./mobile/icon/iconProjects";
+import { IconPhone } from "./mobile/icon/iconPhone";
 
 
 export const navConfig = [
@@ -12,16 +15,16 @@ export const navConfig = [
     {
         title: "Sobre",
         path: PATH_PAGE.about,
-        icon: IconHome 
+        icon: IconAbout 
     },
     {
         title: "Projetos",
         path: PATH_PAGE.projects,
-        icon: IconHome 
+        icon: IconProjects
     },
     {
         title: "Contato",
         path: PATH_PAGE.contact,
-        icon: IconHome 
+        icon: IconPhone
     },
 ]
