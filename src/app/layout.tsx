@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Lucas Souza | Frontend Developer",
-  description: "Portfolio de Lucas Souza, Desenvolvedor Frontend"
+  description: "Portfolio de Lucas Souza, Desenvolvedor de sistemas Frontend em Ji-Paraná"
 }
 
 export default function RootLayout({
@@ -19,9 +19,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
+      <head>
+        <meta name="google-site-verification" content="3YwIBLV18tfpcn2m2Hy5K0nYYaG7CtwioZ5c31Zdb5w" />
+      </head>
       <body className={inter.className}>
-          <GoogleAnalytics />
-          {children}
+        <GoogleAnalytics />
+        {children}
       </body>
     </html>
   )
